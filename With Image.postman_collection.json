@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "c57edc87-609e-420b-b229-e9e0f92de732",
+		"name": "With Image",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5007/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "inputFile",
+							"type": "file",
+							"src": "/home/softuvo/Garima/Flask Practice/Flask_practice/files/sample.pdf"
+						},
+						{
+							"key": "name",
+							"value": "Garima Thakur",
+							"type": "text"
+						},
+						{
+							"key": "author",
+							"value": "Garima",
+							"type": "text"
+						},
+						{
+							"key": "published",
+							"value": "yes",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5007/upload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5007",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5007/data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5007/books",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5007",
+					"path": [
+						"books"
+					]
+				},
+				"description": "GET method "
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5007/data/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5007/data/9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5007",
+					"path": [
+						"data",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5007/data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5007/data",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5007",
+					"path": [
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

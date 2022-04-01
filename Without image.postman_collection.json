@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "d7593b0e-0176-4bf9-9a88-47f70dd70a8b",
+		"name": "Without image",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Neelam",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "143",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Garima",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "120",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get the table "
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "karishma",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "140",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Garima",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "120",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get the table "
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Employees/{id}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "karishma",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "140",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/Employees/3",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Employees",
+						"3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Garima",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "120",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get the table "
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Employees/{id}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "karishma",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "140",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Garima",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "120",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get the table "
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/Employees/{id} Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "karishma",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "140",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/Employees/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Employees",
+						"1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Garima",
+							"disabled": true
+						},
+						{
+							"key": "salary",
+							"value": "120",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Get the table "
+			},
+			"response": []
+		}
+	]
+}
